@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "bytes",
+						"name": "hash",
+						"type": "bytes"
+					}
+				],
+				"name": "HashStored",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_hash",
+						"type": "bytes"
+					}
+				],
+				"name": "isHashExists",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_hash",
+						"type": "bytes"
+					}
+				],
+				"name": "storeHash",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UniqueHashStorage.sol": "UniqueHashStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UniqueHashStorage.sol": {
+			"keccak256": "0x03b6e2b35b90bc2c3684b51d2f93c2381f07069df29fea39f5af2738bff89469",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d56dfdcc3258b2bed9daf026d0c91ff4837e53144428fc628517b78917e5bd5d",
+				"dweb:/ipfs/QmUoXf1JoatTHFHcwrho8vAuTCXUCuZkX7SgNsRP6CY914"
+			]
+		}
+	},
+	"version": 1
+}
